@@ -1,0 +1,123 @@
+<?php
+namespace App\Http\Controllers;
+use Auth;
+use DB;
+use Illuminate\Http\Request;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+use Redirect;
+class RegisterController extends Controller
+{
+    // public function login()
+    // {
+    // 	return view('index');
+    // }
+    // public function handlelogin(Request $request)
+    // {
+    // 	$data = $request->only('email','password');
+    // 	if(\Auth::attempt($data))
+    // 	{
+    // 		return 'is login is';
+    // 		return redirect()->intended('inde');
+    // 	}
+    // 	return back()->withInput();
+    // }
+public function login(Request $req)
+{
+	$username = $req->input('username');
+	$password = $req->input('password');
+     
+	// $fname = $req->input('username');
+     
+	$checklogin = DB::table('register_details')->where(['email'=>$username,'password'=>$password])->get();
+    $aaa= DB::table('register_details')->pluck('usertype')->where(['email'=>$username,'password'=>$password])->get();
+	if(count($checklogin)>0 && $aaa='admin')
+	{
+		// echo "sussfull"; 
+		return Redirect::to('admin');
+	}
+	else
+	{
+		// 
+		return Redirect::to('index')->with('success','Invalid User');
+	}
+   
+
+}
+public function routecreate(Request $req)
+{
+    $start1=$req->input('start');
+    $dest1=$req->input('dest');
+    $dest2='2';
+   
+    // $fname = $req->input('username');
+DB::table('source_routes')->insert(['name' => $start1]);
+DB::table('destination_routes')->insert(['name' => $dest1,'id_country' =>$dest2]);
+       
+            return Redirect::to('admin');
+   
+
+}
+public function buscreate(Request $req)
+{
+    $st1=$req->input('busname');
+    $dest1=$req->input('seats');
+   
+   
+    // $fname = $req->input('username');
+DB::table('buses')->insert(['bus_names' => $st1,'no_seats' =>$dest1]);
+       
+            return Redirect::to('admin');
+}
+// 
+
+
+
+
+ // public function store1(Request $request)
+ // {
+
+ //    return Redirect::to('index');
+ // }
+
+// public function myform()
+//     {
+//         $states = DB::table("source_routes")->pluck("name","id");
+//         return view('myform',compact('states'));
+//     }
+
+//   public function myformAjax($id)
+//     {
+//         $cities = DB::table("destination_routes")
+//                     ->where("state_id",$id)
+//                     ->lists("name","id");
+//              return view('myform',compact('cities'));
+//         return json_encode($cities);
+//     }
+ public function wizard()
+    {
+        $countries = DB::table('source_routes')->pluck("name","id")->all();
+        return view('myform',compact('countries'));
+    } 
+     public function selectAjax(Request $request)
+    {
+        if($request->ajax()){
+            $states = DB::table('destination_routes')->where('id_country',$request->id_country)->pluck("name","id")->all();
+            $data = view('ajax-select',compact('states'))->render();
+            return response()->json(['options'=>$data]);
+        }
+    }
+   public function store(Request $request)
+   {
+   // drop::create($request->all());
+   // return Redirect::to('index');
+        $string=$_POST['id_country'];
+        $string1=$_POST['id_states'];
+        $string3="sdfasdf";
+
+    DB::table('route_request')->insert(['id_country' => $string,'id_states' => $string1,'student_id'=>$string3]);
+       
+            return Redirect::to('index');
+   }
+
+}

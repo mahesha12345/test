@@ -1,0 +1,438 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>NICE || SCHOOL</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+		<!-- favicon
+		============================================ -->		
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		
+		<!-- Google Fonts
+		============================================ -->		
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+	   
+		<!-- Bootstrap CSS
+		============================================ -->		
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+		<!-- Color Swithcer CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/color-switcher.css">
+        
+		<!-- Fontawsome CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        
+		<!-- Owl Carousel CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        
+		<!-- jquery-ui CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        
+		<!-- Meanmenu CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+        
+		<!-- Animate CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/animate.css">
+        
+		<!-- Animated Headlines CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/animated-headlines.css" type="text/css">
+        
+        <!-- Nivo slider CSS
+		============================================ -->
+		<link rel="stylesheet" href="lib/nivo-slider/css/nivo-slider.css" type="text/css" />
+		<link rel="stylesheet" href="lib/nivo-slider/css/preview.css" type="text/css" media="screen" />
+        
+		<!-- Metarial Iconic Font CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/material-design-iconic-font.css" type="text/css">
+        <link rel="stylesheet" href="css/material-design-iconic-font.min.css" type="text/css">
+        
+		<!-- Slick CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/slick.css" type="text/css">
+        
+		<!-- Video CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/jquery.mb.YTPlayer.css">
+        
+		<!-- Style CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+         <link rel="stylesheet" href="css/myindex.css" type="text/css">
+         <link rel="stylesheet" href="css/tabs.css" type="text/css">
+        <link rel="stylesheet" href="css/allacademics.css" type="text/css">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        
+		<!-- Color CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/color.css" type="text/css">
+        
+		<!-- Responsive CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/responsive.css" type="text/css">
+        
+		<!-- Modernizr JS
+		============================================ -->		
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	    
+        <!-- Color Css Files
+		============================================ -->	
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-one.css" title="color-one" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-two.css" title="color-two" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-three.css" title="color-three" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-four.css" title="color-four" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-five.css" title="color-five" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-six.css" title="color-six" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-seven.css" title="color-seven" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-eight.css" title="color-eight" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-nine.css" title="color-nine" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-ten.css" title="color-ten" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-ten.css" title="color-ten" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/pattren1.css" title="pattren1" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/pattren2.css" title="pattren2" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/pattren3.css" title="pattren3" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/pattren4.css" title="pattren4" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/pattren5.css" title="pattren5" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/background1.css" title="background1" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/background2.css" title="background2" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/background3.css" title="background3" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/background4.css" title="background4" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/background5.css" title="background5" media="screen" />
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <!--Main Wrapper Start-->
+        <div class="as-mainwrapper">
+            <!--Bg White Start-->
+            <div class="bg-white">
+                 <!--Header Area Start-->
+                <header class="header-two">
+                    <div class="header-top bg-white border-green">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7 col-md-6 col-sm-5 hidden-xs">
+                                    <span class="text-blue">Office No : 08153-258666</span>
+                                </div>
+                                <div class="col-lg-5 col-md-6 col-sm-7 col-xs-12">
+                                    <div class="header-top-right">
+                                        <span class="text-blue">Phone : +9945304490</span>
+                                        <span class="text-blue">Email :  rshnice@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-logo-menu padding-small">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-12">
+                                    <div class="logo">
+                                        <a href="{{URL::to('/index')}}"><img src="img/logo/logo.png" alt="EDUCAT"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-9 hidden-sm hidden-xs">
+                                    <div class="mainmenu-area pull-right">
+                                        <div class="mainmenu">
+                                            <nav>
+                                                <ul id="nav" class="border-full border-top-2">
+                                                    <li class="current"><a href="{{URL::to('/index')}}">Home</a>  </li>
+
+                                                    <li><a>About</a>
+                                                         <ul class="sub-menu">
+                                                            <li><a href="{{URL::to('vission-and-mission')}}">vission and mission</a></li>
+                                                            <li><a href="{{URL::to('/about')}}">Principal Message</a></li>
+                                                        </ul>
+                                                    </li> 
+                                                    <li><a href="{{URL::to('/admission')}}">ADMISSIONS</a> </li> 
+                                                     <li><a href="{{URL::to('/it')}}"> FACILITIES</a>
+                                                    </li>
+                                                   <li><a>ACADEMICS</a>
+                                                        <ul class="sub-menu">
+                                                                    <li><a href="{{URL::to('/early-year')}}">Early Year</a></li>
+                                                                    <li><a href="{{URL::to('/elementary')}}">Elementary School</a></li>
+                                                                    <li><a href="{{URL::to('/middle')}}">Middle School</a></li>
+                                                                    <li><a href="{{URL::to('/timing')}}">Overview and Timings</a></li>
+                                                                    
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="">ACTIVITIES</a>
+                                                        <ul class="sub-menu">
+                                                            <li><a href="{{URL::to('/music-and-dance')}}">Music and Dance</a></li>
+                                                            <li><a href="{{URL::to('/cooking-without-fire')}}">Cooking without Fire</a></li>
+                                                            <li><a href="{{URL::to('/nature-education')}}">Nature Education</a></li>
+                                                            <li><a href="{{URL::to('/field-trip')}}">Field Trip</a></li>
+                                                        </ul>
+                                                    </li>
+                                                     <li><a>Gallery</a>
+                                                          <ul class="sub-menu">
+                                                               <li><a href="{{URL::to('/gallery')}}">Photo Gallery</a></li>
+                                                               <li><a href="{{URL::to('/teachers')}}">Teachers</a></li>
+                                                          </ul>
+                                                      </li>
+                                                    <li><a href="{{URL::to('/contact')}}">Contact</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <ul class="header-search">
+                                            <li class="search-menu">
+                                                <i id="toggle-search" class="zmdi zmdi-search-for"></i>
+                                            </li>
+                                        </ul>
+                                        <!--Search Form-->
+                                        <div class="search">
+                                            <div class="search-form">
+                                                <form id="search-form" action="#">
+                                                    <input type="search" placeholder="Search here..." name="search" />
+                                                    <button type="submit">
+                                                        <span><i class="fa fa-search"></i></span>
+                                                    </button>
+                                                </form>                                
+                                            </div>
+                                        </div>
+                                        <!--End of Search Form-->
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <!-- Mobile Menu Area start -->
+                    <div class="mobile-menu-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="mobile-menu">
+                                        <nav id="dropdown">
+                                            <ul>
+                                                 <li class="current"><a href="{{URL::to('/index')}}">Home</a>  </li>
+
+                                                    <li><a>About</a>
+                                                         <ul class="sub-menu">
+                                                            <li><a href="{{URL::to('vission-and-mission')}}">vission and mission</a></li>
+                                                            <li><a href="{{URL::to('/about')}}">Principal Message</a></li>
+                                                        </ul>
+                                                    </li> 
+                                                    <li><a href="{{URL::to('/admission')}}">ADMISSIONS</a> </li> 
+                                                     <li><a href="{{URL::to('/it')}}"> FACILITIES</a>
+                                                    </li>
+                                                   <li><a>ACADEMICS</a>
+                                                        <ul class="sub-menu">
+                                                                    <li><a href="{{URL::to('/early-year')}}">Early Year</a></li>
+                                                                    <li><a href="{{URL::to('/elementary')}}">Elementary School</a></li>
+                                                                    <li><a href="{{URL::to('/middle')}}">Middle School</a></li>
+                                                                    <li><a href="{{URL::to('/timing')}}">Overview and Timings</a></li>
+                                                                    
+                                                        </ul>
+                                                    </li>
+                                                    <li><a>ACTIVITIES</a>
+                                                        <ul class="sub-menu">
+                                                            <li><a href="{{URL::to('/music-and-dance')}}">Music and Dance</a></li>
+                                                            <li><a href="{{URL::to('/cooking-without-fire')}}">Cooking without Fire</a></li>
+                                                            <li><a href="{{URL::to('/nature-education')}}">Nature Education</a></li>
+                                                            <li><a href="{{URL::to('/field-trip')}}">Field Trip</a></li>
+                                                        </ul>
+                                                    </li>
+                                                     <li><a href="{{URL::to('/gallery')}}">Gallery</a> </li>
+                                                    <li><a href="{{URL::to('/contact')}}">Contact</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mobile Menu Area end -->   
+                </header>
+                <!--End of Header Area-->
+     
+
+
+
+     @yield('content')
+
+              <!--Newsletter Area Start-->
+                <div class="newsletter-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-5">
+                                <div class="newsletter-content">
+                                    <h3>SUBSCRIBE</h3>
+                                    <h2>TO OUR NEWSLETTER</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-7">
+                                <div class="newsletter-form angle">
+                                    <form action="#" id="mc-form" class="mc-form footer-newsletter fix">
+                                        <div class="subscribe-form">
+                                            <input id="mc-email" type="email" name="email" placeholder="Enter your email address...">
+                                            <button id="mc-submit" type="submit">SUBSCRIBE</button>
+                                        </div>    
+                                    </form>
+                                    <!-- mailchimp-alerts Start -->
+                                    <div class="mailchimp-alerts text-centre fix pull-right">
+                                        <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                                        <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                                        <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                                    </div>
+                                    <!-- mailchimp-alerts end -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End of Newsletter Area-->
+                <!--Footer Widget Area Start-->
+                <div class="footer-widget-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="single-footer-widget">
+                                    <div class="footer-logo">
+                                        <a href="{{URL::to('/index')}}"><img src="img/logo/footer.png" alt=""></a>
+                                    </div>
+                                    <p>Nice International School foundation in the year 2014 which the acknowledgment that social change can happen through the spread  of high quality education.</p>
+                                    <div class="social-icons">
+                                        <a><i class="zmdi zmdi-facebook"></i></a>
+                                        <a><i class="zmdi zmdi-google-plus"></i></a>
+                                        <a><i class="zmdi zmdi-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="single-footer-widget">
+                                    <h3>GET IN TOUCH</h3>
+                                    <span><i class="fa fa-phone"></i>+9945304490</span>
+                                    <span><i class="fa fa-envelope"></i>rshnice@gmail.com</span>
+                                    <span><i class="fa fa-map-marker"></i>Nice International School <br>S.Madamangala,Bangarpet Taluk,<br>Kolar Dist.</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 hidden-sm">
+                                <div class="single-footer-widget">
+                                    <h3>Useful Links</h3>
+                                    <ul class="footer-list">
+                                        <li><a href="{{URL::to('/index')}}">Home</a></li>
+                                        <li><a href="{{URL::to('/about')}}">About US</a></li>
+                                        <li><a href="{{URL::to('/admission')}}">Admissioins</a></li>
+                                        <li><a href="{{URL::to('/it')}}">Facilities</a></li>
+                                        <li><a href="{{URL::to('/early-year')}}">Academics</a></li>
+                                        <li><a href="{{URL::to('/contact')}}">Contact US</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <!--End of Footer Widget Area-->
+                <!--Footer Area Start-->
+                <footer class="footer-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-7">
+                                <span>Copyright &copy; NIS <?php echo date('Y')?>.All right reserved.</span>
+                            </div>
+                            <div class="col-md-6 col-sm-5">
+                                <div class="column-right">
+                                    <span>Designed By : Engage and Encapsulate Softtech Pvt Ltd</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!--End of Footer Area-->
+            </div>   
+            <!--End of Bg White--> 
+        </div>    
+        <!--End of Main Wrapper Area--> 
+        
+        
+        <!-- jquery
+        ============================================ -->        
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        
+        <!-- bootstrap JS
+        ============================================ -->        
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!-- nivo slider js
+        ============================================ -->       
+        <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+        <script src="lib/nivo-slider/home.js" type="text/javascript"></script>
+        
+        <!-- meanmenu JS
+        ============================================ -->        
+        <script src="js/jquery.meanmenu.js"></script>
+        
+        <!-- wow JS
+        ============================================ -->        
+        <script src="js/wow.min.js"></script>
+        
+        <!-- owl.carousel JS
+        ============================================ -->        
+        <script src="js/owl.carousel.min.js"></script>
+        
+        <!-- scrollUp JS
+        ============================================ -->        
+        <script src="js/jquery.scrollUp.min.js"></script>
+        
+        <!-- Waypoints JS
+        ============================================ -->        
+        <script src="js/waypoints.min.js"></script>
+        
+        <!-- Counterup JS
+        ============================================ -->        
+        <script src="js/jquery.counterup.min.js"></script>
+        
+        <!-- Slick JS
+        ============================================ -->        
+        <script src="js/slick.min.js"></script>
+        
+        <!-- Animated Headlines JS
+        ============================================ -->        
+        <script src="js/animated-headlines.js"></script>
+        
+        <!-- Textilate JS
+        ============================================ -->        
+        <script src="js/textilate.js"></script>
+        
+        <!-- Lettering JS
+        ============================================ -->        
+        <script src="js/lettering.js"></script>
+        
+        <!-- Video Player JS
+        ============================================ -->        
+        <script src="js/jquery.mb.YTPlayer.js"></script>
+        
+        <!-- Mail Chimp JS
+        ============================================ -->        
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        
+        <!-- AJax Mail JS
+        ============================================ -->        
+        <script src="js/ajax-mail.js"></script>
+        
+        <!-- plugins JS
+        ============================================ -->        
+        <script src="js/plugins.js"></script>
+        
+        <!-- StyleSwitch JS
+        ============================================ -->    
+        <script src="js/styleswitch.js"></script>
+        
+        <!-- main JS
+        ============================================ -->        
+        <script src="js/main.js"></script>
+    </body>
+</html>

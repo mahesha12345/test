@@ -1,0 +1,154 @@
+.img-size
+{
+	margin-top: 88px;
+}
+.vission-and-mission
+{
+	margin-top: 55px;
+	
+}
+.heading-titles
+{
+	margin-bottom: 30px;
+}
+.title-sep-container .title-sep.sep-double {
+    height: 6px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+.circle-icon {
+    background:#D6DAC2;
+    padding:9px;
+    border-radius: 50%;
+    margin-right: 15px;
+    line-height: 13px;
+    margin-bottom: 6px;
+}
+
+.heading-titles
+{
+  margin-top:50px;
+  display:flex;
+ /* background:linear-gradient(to left,gray,lightgray,white,yellow,turquoise);*/
+ background: linear-gradient(to left,#86bc42,#86bc42,#86bc42,#86bc42,#86bc42);
+ color:#fff;
+}
+.heading-titles:before, .heading-titles:after {
+  color:white;
+  content:'';
+  flex:1;
+  border-bottom:groove 2px;
+  margin:auto 0.25em;
+  box-shadow: 0 -1px ;/* ou 0 1px si border-style:ridge */
+}
+
+.vision-area p {
+    font-family: 'Open Sans',arial,sans-serif;
+    color: #4d4d4d;
+    font-size: 17px;
+    line-height: 1.8em;
+    text-align: justify;
+}
+.vision-area li {
+    font-family: 'Open Sans',arial,sans-serif;
+    color: #4d4d4d;
+    font-size: 17px;
+    line-height: 1.8em;
+    text-align: justify;
+    margin-bottom: 22px;
+}
+.vision-area td {
+    font-family: 'Open Sans',arial,sans-serif;
+    color: #4d4d4d;
+    font-size: 17px;
+    line-height: 2.8em;
+    text-align: justify;
+    margin-bottom: 22px;
+}
+
+
+hr.style15 {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+    margin-top: 75px;
+}
+hr.style15:after {
+  background: rgba(0, 0, 0, 0) url(img/icon/cap-dark.jpg) no-repeat scroll 0 0;
+	content: '';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+  z-index: 99;
+  /*-webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  transform: rotate(90deg);*/
+}
+
+
+
+hr.style16 {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+    margin-top: 19px;
+}
+hr.style16:after {
+	/*content: '\002665';*/
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+}
+
+.top
+{
+  margin-top:30px;
+  margin-bottom:10px;
+}
+
+.download-applicaton
+{
+ padding: 40px 0px 40px 30px;
+ background-color:#7d8a9b;
+ color:#fff;
+ margin-bottom: 20px;
+}
+
+.download-applicaton a
+{
+    color:#fff;
+}
+
+
+.admit_animation {
+    background-color: red;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.table-rows
+{
+  color:#4d4d4d;
+  font-weight:700;
+  font-size: 17px;
+}
+.tabs-paragraph
+{
+  margin-top: 20px;
+  margin-bottom:35px;
+}
+
+.fecilities-title
+{
+  padding-left: 631px;
+}
